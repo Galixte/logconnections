@@ -9,8 +9,6 @@
 
 namespace david63\logconnections\controller;
 
-
-
 use phpbb\config\config;
 use phpbb\request\request;
 use phpbb\template\template;
@@ -53,7 +51,7 @@ class admin_controller implements admin_interface
 	* @param \phpbb\template\template	$template	Template object
 	* @param \phpbb\user				$user		User object
 	* @param \phpbb\log\log				$log		phpBB log
-	* @param phpbb\language\language	$language	Language object
+	* @param \phpbb\language\language	$language	Language object
 	*
 	* @return \david63\logconnections\controller\admin_controller
 	* @access public
